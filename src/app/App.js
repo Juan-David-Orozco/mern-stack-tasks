@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Component1 from './comp1'
 
 class App extends Component {
 
@@ -109,6 +110,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Component1/>
         {/* NAVIGATION */}
         <nav className="light-blue darken-4">
           <div className="container">
@@ -117,7 +119,7 @@ class App extends Component {
             </div>
           </div>
         </nav>
-
+        <Component1/>
         <div className="container">
           <div className="row">
             <div className="col s5">
