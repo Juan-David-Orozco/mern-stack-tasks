@@ -5,10 +5,11 @@ const path = require('path');
 const app = express();
 
 // Db connection
-const { mongoose } = require('./database');
+//const { mongoose } = require('./database');
+require('./database');
 
 // Settings 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 4000);
 
 // Middlewares
 app.use(morgan('dev'));
